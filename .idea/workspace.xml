@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="838ffc3f-8f6c-4015-a06b-56fe8077c345" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="14bb0500-6efe-4f60-8b10-297fcf28cd1d" />
+  <component name="ProjectId" id="1keb8sBon8SohWvkNYoVAKIVKyC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mcp23017test.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.sensortest">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="magrover" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mcp23017test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="magrover" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://pi@magroverpi:22/home/pi/miniconda3/envs/magrover/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcp23017test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sensortest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="magrover" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sensortest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.mcp23017test" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.sensortest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sensortest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="838ffc3f-8f6c-4015-a06b-56fe8077c345" name="Default Changelist" comment="" />
+      <created>1606063847537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606063847537</updated>
+      <workItem from="1606078204805" duration="16300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="356" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606078718276">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="356" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606078718276" />
+    <state x="1061" y="468" key="FileChooserDialogImpl" timestamp="1606078716178">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="468" key="FileChooserDialogImpl/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606078716178" />
+    <state width="1432" height="195" key="GridCell.Tab.0.bottom" timestamp="1606101843491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1432" height="195" key="GridCell.Tab.0.bottom/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606101843491" />
+    <state width="1432" height="195" key="GridCell.Tab.0.center" timestamp="1606101843491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1432" height="195" key="GridCell.Tab.0.center/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606101843491" />
+    <state width="1432" height="195" key="GridCell.Tab.0.left" timestamp="1606101843491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1432" height="195" key="GridCell.Tab.0.left/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606101843491" />
+    <state width="1432" height="195" key="GridCell.Tab.0.right" timestamp="1606101843491">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1432" height="195" key="GridCell.Tab.0.right/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606101843491" />
+    <state width="1258" height="303" key="GridCell.Tab.1.bottom" timestamp="1606096340126">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="303" key="GridCell.Tab.1.bottom/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606096340126" />
+    <state width="1258" height="303" key="GridCell.Tab.1.center" timestamp="1606096340125">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="303" key="GridCell.Tab.1.center/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606096340125" />
+    <state width="1258" height="303" key="GridCell.Tab.1.left" timestamp="1606096340125">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="303" key="GridCell.Tab.1.left/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606096340125" />
+    <state width="1258" height="303" key="GridCell.Tab.1.right" timestamp="1606096340126">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1258" height="303" key="GridCell.Tab.1.right/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606096340126" />
+    <state x="782" y="346" key="SettingsEditor" timestamp="1606078545719">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="346" key="SettingsEditor/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606078545719" />
+    <state x="1168" y="431" width="422" height="538" key="ftp.server.browser" timestamp="1606078528499">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1168" y="431" width="422" height="538" key="ftp.server.browser/3840.1080.1920.1020/0.0.2560.1400/-1920.523.1920.1040@0.0.2560.1400" timestamp="1606078528499" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/magrover$sensortest.coverage" NAME="sensortest Coverage Results" MODIFIED="1606101843484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/magrover$mcp23017test.coverage" NAME="mcp23017test Coverage Results" MODIFIED="1606086936002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
