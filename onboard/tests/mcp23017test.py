@@ -6,21 +6,19 @@ import time
 i2c = busio.I2C(board.SCL, board.SDA)
 
 mcp = MCP23017(i2c)
-pin = [0, 0, 0, 0]
-pin[0] = mcp.get_pin(6)
-pin[1] = mcp.get_pin(7)
-pin[2] = mcp.get_pin(8)
-pin[3] = mcp.get_pin(9)
-cs = mcp.get_pin(0)
-cs.direction = Direction.OUTPUT
-for x in range(4):
+pin = []
+
+for x in range(16):
+    pin.append(0)
+
+for x in range(8, 16):
+    pin[x] = mcp.get_pin(x)
     pin[x].direction = Direction.OUTPUT
+
 while 1:
-    for x in range(4):
+    for x in range(8, 16):
         pin[x].value = True
-        cs.value = True
         time.sleep(0.10)
         pin[x].value = False
-        cs.value = False
         time.sleep(0.10)
 

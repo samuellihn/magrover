@@ -76,7 +76,7 @@ class RM3100Measurement:
 
 class RM3100:
 
-    def __init__(self, select, si):
+    def __init__(self, select, spi):
         self.registers = RegisterMap()
         self.select_pin = select
         self.spi = spi
