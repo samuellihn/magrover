@@ -1,4 +1,6 @@
 import time
+
+
 # Turns a 2 byte long integer into two 1 byte integers
 def int16_to_bytes(value):
 
@@ -73,18 +75,40 @@ class RM3100Measurement:
         measurement /= 8388608
         return measurement
 
+    def to_dict(self):
+        encode = {
+            "x": self.x,
+            "y": self.y,
+            "z": self.z
+        }
+        return encode
+
+    def __str__(self):
+        return f"[{self.x}, {self.y}, {self.z}]"
+
 
 class RM3100:
 
     def __init__(self, select, spi):
+        """
+        Creates a RM3100 sensor object
+        :param select: Chip select MCP pin to use
+        :param spi: SPI bus to use
+        """
         self.registers = RegisterMap()
         self.select_pin = select
         self.spi = spi
 
         self.select_pin.value = True
 
-    # Reads selected axes and returns a Measurement object with x, y, and z values in microteslas
     def read(self, read_x=True, read_y=True, read_z=True):
+        """
+        Reads selected axes and returns a Measurement object with x, y, and z values in microteslas
+        :param read_x: Whether to read X axis
+        :param read_y: Whether to read Y axis
+        :param read_z: Whether to read Z axis
+        :return: Measurement object with measurements in uT
+        """
         self.initiate_single_measurement(read_x, read_y, read_z)
         raw_measurement = self.read_measurement()
         measurement = RM3100Measurement(raw_measurement)
@@ -92,6 +116,12 @@ class RM3100:
 
     # Sets the cycle count registers
     def set_cycle_count(self, cycle_x, cycle_y, cycle_z):
+        """
+        Sets the cycle count for the RM3100 sensor
+        :param cycle_x: Cycle count value X
+        :param cycle_y: Cycle count value Y
+        :param cycle_z: Cycle count value Z
+        """
         # Converts the parameters to a bytearray payload
         cycle_x_bytes = bytearray(int16_to_bytes(cycle_x))
         cycle_y_bytes = bytearray(int16_to_bytes(cycle_y))
@@ -108,6 +138,13 @@ class RM3100:
 
     # Initiates a single measurement from the sensor
     def initiate_single_measurement(self, x=True, y=True, z=True):
+        """
+        Initiates a single RM3100 measurement
+        :param x: Whether to read X axis
+        :param y: Whether to read Y axis
+        :param z: Whether to read Z axis
+        :return:
+        """
         self.select_pin.value = False
 
         # Sends value depending on input values
@@ -123,10 +160,11 @@ class RM3100:
 
         self.select_pin.value = True
 
-    # Reads a measurement from the sensor and returns a bytearray of length 9
-    # Bytearray uses three bytes for x, y, and z respectively in big endian format
     def read_measurement(self):
-        # Polls until measurement is ready
+        """
+        Reads a measurement from the sensor and returns a bytearray of length 9
+        :return: A 9 byte ByteArray with 3 bytes for x, y, and z in big endian
+        """
         is_ready = bytearray([0])
         while True:
             self.select_pin.value = False
